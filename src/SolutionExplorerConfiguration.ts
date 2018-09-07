@@ -27,7 +27,9 @@ export function getItemTypes(): { [id: string]: string } {
         "ts": "TypeScriptCompile",
         "xaml": "EmbeddedResource",
         "cpp": "ClCompile",
-        "c": "ClCompile"
+        "c": "ClCompile",
+        "h": "ClInclude",
+        "hpp": "ClInclude"
     });
 }
 
